@@ -1,0 +1,41 @@
+{
+  "name": "build-element",
+  "version": "1.0.0",
+  "description": "Create html elements",
+  "license": "MIT",
+  "repository": "tobihrbr/build-element",
+  "author": {
+    "name": "Tobias Herber",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "ava",
+    "lint": "fyi"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "html",
+    "element",
+    "elements",
+    "components",
+    "build",
+    "create",
+    "dom",
+    "string"
+  ],
+  "dependencies": {
+    "attribute-string": "^1.0.1",
+    "html-tags": "^2.0.0",
+    "style-string": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "fyi": "^1.0.1"
+  }
+}
